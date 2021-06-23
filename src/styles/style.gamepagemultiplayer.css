@@ -1,0 +1,46 @@
+.main-container-gamepagemultiplayer{
+    height: 100vh;  
+    color: white;
+    font-weight: bolder;
+    font-family: 'Cabin Sketch', cursive;   
+} 
+.main-container-gamepagemultiplayer-error{
+    padding: 5%;
+    height: 100vh;  
+    color: white;
+    font-weight: bolder;
+    font-family: 'Cabin Sketch', cursive; 
+    background-image:url('https://ugbtuts.com/wp-content/uploads/2019/02/screenshot.359-1.png');
+    background-position: center;
+    background-size: cover;  
+} 
+.container-error{
+    color: black;
+    background-image:url('https://pngimage.net/wp-content/uploads/2018/06/%D1%82%D0%B5%D1%82%D1%80%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9-%D0%BB%D0%B8%D1%81%D1%82-png-2.png');
+    background-position: center;
+    background-size: cover;
+    height: 40%;
+}
+.board-container{
+    padding: 0%;
+    height: 90vh;
+    background-image:url('https://ugbtuts.com/wp-content/uploads/2019/02/screenshot.359-1.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Cabin Sketch', cursive;   
+}
+.timer-container{ 
+    height: 10vh;
+    background-image:url('https://pngimage.net/wp-content/uploads/2018/06/%D1%82%D0%B5%D1%82%D1%80%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9-%D0%BB%D0%B8%D1%81%D1%82-png-2.png');
+    background-position: center;
+    background-size: cover;
+}
+.listplayers-container{ 
+    height: 100vh;
+    background-image:url('https://bgfons.com/uploads/wood/wood%20_texture3194.jpg');
+    background-position: center;
+    background-size: cover;
+}
+

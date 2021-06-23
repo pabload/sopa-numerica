@@ -1,0 +1,10 @@
+.main-container-premultiplayerroom{ 
+    padding: 10%;
+    min-height : 100vh;  
+    background-image:url('https://ugbtuts.com/wp-content/uploads/2019/02/screenshot.359-1.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Cabin Sketch', cursive;
+}

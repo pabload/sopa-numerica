@@ -1,0 +1,70 @@
+.main-container-gamepage{ 
+    padding: 5%;
+    min-height : 100vh;  
+    background-image:url('https://ugbtuts.com/wp-content/uploads/2019/02/screenshot.359-1.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Cabin Sketch', cursive;
+}
+.botonnumeros{
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+.botonnumeros:hover{
+    background-color: #438a5e;
+    border-color: #438a5e;
+    color: inherit;
+    text-decoration: inherit;
+    font-family: 'Cabin Sketch', cursive;
+   
+}
+.nums{
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+.post-it {
+ width:250px;
+ height:240px;
+ position:relative;
+ background:#ffa;
+ overflow:hidden;
+ margin:30px auto;
+ padding:20px;
+ border-radius:0 0 0 30px/45px;
+ box-shadow:
+   inset 0 -40px 40px rgba(0,0,0,0.2),
+   inset 0 25px 10px rgba(0,0,0,0.2),
+   0 5px 6px 5px rgba(0,0,0,0.2);
+ line-height:1.7em;
+ font-size:19px;
+ -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+
+ color:black;
+}
+.modal-content{
+    font-family: 'Cabin Sketch', cursive;
+    background-image:url('https://pngimage.net/wp-content/uploads/2018/06/%D1%82%D0%B5%D1%82%D1%80%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9-%D0%BB%D0%B8%D1%81%D1%82-png-2.png');
+    background-position: center;
+    background-size: cover;
+}
+.modal-button{
+    background-color: transparent;
+    border-style: dotted;
+    border-color: black;
+    color: black;
+}
+.modal-button:hover{
+    background-color:  rgba(0, 0, 0, 0.5);
+    border-style: dotted;
+    border-color: black;
+    color: black;
+}
+
+
+

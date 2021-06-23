@@ -1,25 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Main from './components/main';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Gamepage from './components/gamepage';
+import Mutliplayersetup from './components/mutliplayersetup';
+import Premultiplayerroom from './components/premultiplayerroom';
+import Lobby from './components/lobby';
+import Gamepagemultiplayer from './components/gamepagemultiplayer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Switch>
+          <Route exact path="/" component={Main}/>
+          <Route exact path="/multiplayersetup" component={Mutliplayersetup}/>
+          <Route exact path="/preroom" component={Premultiplayerroom}/>
+          <Route exact path="/lobby" component={Lobby}/>
+          <Route exact path="/playmulti" component={Gamepagemultiplayer}/>
+          <Route exact path="/play/:tipo" component={Gamepage}/>
+        </Switch>
+    </Router>
   );
 }
 
